@@ -50,8 +50,6 @@ body {
   }
 
   .card {
-    background-image:url(card3.png) ;
-
     flex: 20;
     padding: 20px;
     border-radius: 20px;
@@ -60,6 +58,18 @@ body {
     align-items: flex-end;
     font-weight: bold;
     color: #ffffff;
+  }
+
+  #card1 {
+    background-image: url(card1.png);
+  }
+
+  #card2 {
+    background-image: url(card2.png);
+  }
+
+  #card3 {
+    background-image: url(card3.png);
   }
 
   main {
@@ -102,3 +112,4 @@ body {
     color: #888;
     margin-top: 60px;
   }
+
